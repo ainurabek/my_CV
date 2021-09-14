@@ -34,6 +34,9 @@ module.exports = merge(common, {
       filename: "[name].[contenthash].css",
     }),
   ],
+  performance: {
+    hints: false,
+  },
   module: {
     rules: [
       {
